@@ -22,18 +22,21 @@ main {
     flex-direction: column;
 }
 
-.img-div {
+#img-div {
     width: 95%;
     margin: 5px auto;
     background-color: white;
 }
 
-.img-div > #image {
-    
-    margin: 10px 278px;
+#img-div > #image {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
 }
 
-.img-div > #img-caption {
+#img-div > #img-caption {
     width: 59%;
     margin: 5px auto;
     padding-bottom: 20px;
@@ -72,5 +75,5 @@ footer {
 
 a {
     cursor: pointer;
-    color: rgb(99, 126, 206);
+    color: rgb(108, 137, 223);
 }
